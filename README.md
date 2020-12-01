@@ -2,7 +2,7 @@
 ## Data Modeling with Postgres
 
 ### PROJECT SUMMARY
-In this project, User activity data for a music streaming app called Sparkify was modelled.A relational database and ETL pipeline was designed to optimize queries for understanding what songs users are listening to. In PostgreSQL, Fact and Dimension tables were created, and data was inserted into the new tables.
+In this project, User activity data for a music streaming app was modelled. A relational database and ETL pipeline was designed to optimize queries for understanding what songs users are listening to. In PostgreSQL, Fact and Dimension tables were created, and data was inserted into the new tables.
 
 ### PROJECT SCHEMA
 Star Schema was used for the development of the database.
@@ -22,8 +22,5 @@ The ER Diagram for the project -
 3. etl.py - This is the script for creating the main ETL Pipeline. It takes data from the JSON files with the help of the Pandas library.  To execute this file, run the following command in Terminal - ``` python etl.py ```
 
 5. test.ipynb - This notebook is used for testing and running the SQL queries.
-
-
-
 
 Thankyou :sparkles:
